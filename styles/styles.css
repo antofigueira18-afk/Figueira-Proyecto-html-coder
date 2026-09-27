@@ -1,0 +1,33 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.25rem;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    width: 7rem;
+    height: auto;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
