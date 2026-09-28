@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 header {
     display: flex;
     align-items: center;
@@ -25,9 +30,11 @@ h1 {
     width: 100%;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+/* Main */
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
+
 
