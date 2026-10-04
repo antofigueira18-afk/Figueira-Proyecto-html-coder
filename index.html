@@ -3,44 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instituto de Formacion Profesional San Isidro</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-
+    <title>Honda Motors</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="./assets/logo.png" alt="Logo del IFPSI">
-        <!-- Tuve que agregar contenido al css para que el logo se vea bien en la páginas ya que era muy grande y quedaba todo raro -->
-        <h1>Instituto de Formación Profesional San Isidro</h1>
+        <figure>
+            <a href="./index.html">
+                <img src="./assets/imagenes/logo-hm.png" alt="Logo de Honda Motors">
+            </a>
+        </figure>
+        <h1>Honda Motors</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
-                <li><a href="./pages/cursos.html">Cursos</a></li>
-                <li><a href="./pages/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="./pages/como-llegar.html">Como llegar</a></li>
+                <li><a href="./pages/galeria.html">Galeria</a></li>
             </ul> 
             <!-- Aclaración: si colocaba # en el href de la página sobre la que trabajaba, no me recargaba la página correspondiente. Por eso tuve que colocar la ruta completa de cada página. -->
         </nav>
     </header>
 
     <main>
-        <h2>Formación profesional para transformar tu futuro</h2>
-        <p>En el Instituto de Formación Profesional San Isidro ofrecemos programas de capacitación orientadas al desarrollo de habilidades y conocimientos para el ámbito profesional.</p>
+        <section>
+            <h2>Tu próxima aventura comienza acá</h2>
+            <p>En Honda Motors te ayudamos a encontrar la moto que se adapte a tu estilo y a tus necesidades. Descubrí nuestra selección de motocicletas Honda y preparate para disfrutar cada camino.</p>
+                
+            <figure>
+                <img src="./assets/imagenes/concesionaria-honda.png" alt="Fachada de Honda Motors">
+                <figcaption>Nuestra concesionaria</figcaption>
+            </figure>
+        </section>
 
-        <h3>Aprendé, desarrollá tus habilidades y preparate para nuevos desafíos </h3>
-        <p>Contamos con cursos de formación profesional pensados para quienes buscan incorporar nuevos conocimientos, mejorar sus competencias y ampliar sus oportunidades laborales.</p>
-        <div>
-            <img class="imagen-fachada" src="./assets/ifpsi-fachada.jpg" alt="Imagen de la fachada del Instituto de Formación Profesional San Isidro">
-        </div>
+        <section>
+            <h2>La protagonista</h2>
+            <h3>Honda CB750 Hornet</h3>
+            <img src="./assets/imagenes/cb750hornet.jpg" alt="Moto CB750 Hornet">
+            <p>Una naked deportiva que combina un diseño agresivo, gran respuesta y tecnología para disfrutar cada recorrido.</p> 
+            <p>Con su motor bicilíndrico de 755cc y sus 92CV, la CB750 Hornet ofrece una experiencia de conducción dinámica y emocionante.</p>
+
+            <a href="./pages/galeria.html">Conocé la Honda CB750 Hornet</a>
+        </section>
+       
+        <section>
+            <h2>Conocé Honda Motors</h2>
+            <p>Somos una concesionaria familiar que nació gracias a nuestra pasión por las motocicletas.</p>
+            <p>Con los años fuimos creciendo junto a nuestros clientes y construyendo un espacio dedicado a quienes comparten nuestra pasión por las dos ruedas.</p>
+            <p>Conocé nuestra historia, nuestro equipo y el lugar donde comenzó este proyecto.</p>
+            <a href="./pages/sobre-nosotros.html">Sobre nosotros</a>
+        </section>
+
+        <section>
+            <h2>¿Tenés alguna consulta?</h2>
+            <p>Completá el formulario y nos pondremos en contacto con vos para ayudarte.</p>
+
+            <form>
+                <label for="nombre-cliente">Ingrese su nombre completo</label>
+                <input id="nombre-cliente" type="text" placeholder="Ej: Ramiro Díaz" required minlength="4">
+
+                <label for="telefono-cliente">Ingrese su número de teléfono</label>
+                <input id="telefono-cliente" type="number" placeholder="Ej: 11-7835-9903" required min="1000000000">
+
+                <label for="email-cliente">Ingrese su mail de contacto</label>
+                <input id="email-cliente" type="email" placeholder="Ej: Ramirodiaz@gmail.com" required minlength="8">
+
+                <label for="consulta-cliente">Adjunte el motivo de su consulta</label>
+                <textarea name="consulta" id="consulta-cliente" required minlength="8"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
     </main>
 
     <footer>
-        <p>Contacto: info@ifpsi.edu.ar</p>
-        <p>Teléfono: +54 11 1234-5678</p> 
-        <p>© 2026 IFPSI - Todos los derechos reservados</p>
-        <p>Institución fundada en 2006</p>
-       
-    </footer>
+        <p>Contacto: contacto@hondamotors.com</p>
+        <p>Teléfono: +54 11-6789-2230</p> 
+        <p>© 2026 Honda Motors</p>
+     </footer>
 </body>
 </html> 
