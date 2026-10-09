@@ -1,24 +1,24 @@
 https://antofigueira18-afk.github.io/Figueira-Proyecto-html-coder/index.html
 
-## Honda Motors
+# Honda Motors
 
-# Descripción
+##  Descripción
 Honda Motors es un proyecto de sitio web sobre una concesionaria ficticia dedicada al mundo de las motocicletas Honda.
 
-# Objetivo
+##  Objetivo
 Desarrollar un sitio web utilizando `HTML5`, aplicando buenas prácticas de estructura, accesibilidad y organización del contenido.
 
-# Tecnologías utilizadas
+##  Tecnologías utilizadas
 - `HTML5`
 - `Git` y `GitHub`
 - `GitHub Pages`
 
-# Estructura del sitio
+##  Estructura del sitio
 - `Index`: Presentación de la concesionaria.
 - Sobre nosotros: Historia y presentación del negocio.
 - Galería: exhibición de diferentes modelos de motocicletas.
 
-# Características
+##  Características
 - Estructura semántica `HTML`.
 - Navegación entre páginas
 - Formularios con campos y etiquetas correspondientes.
@@ -27,11 +27,11 @@ Desarrollar un sitio web utilizando `HTML5`, aplicando buenas prácticas de estr
 - Contenido multimedia integrado.
 - Elementos orientados a la accesibilidad.
 
-# Publicación
+##  Publicación
 El sitio está publicado mediante `GitHub Pages` y puede visitarse desde el enlace disponible al inicio de este documento.
 
-# Estado del proyecto
+##  Estado del proyecto
 Finalizado.
 
-# Autora
+##  Autora
 Antonella Figueira.
